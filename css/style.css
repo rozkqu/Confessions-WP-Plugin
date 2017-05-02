@@ -1,0 +1,114 @@
+.hilighted a{
+	color: #FF3300 !important;
+}
+.entry-content.confession {
+	//border-left: 5px solid #337a98;
+	border: 1px solid #eee;
+	//-webkit-box-shadow: 15px 0px 16px -11px rgba(0,0,0,0.32);
+	//-moz-box-shadow: 15px 0px 16px -11px rgba(0,0,0,0.32);
+	//box-shadow: 15px 0px 16px -11px rgba(0,0,0,0.32);
+	float: right;
+	padding: 10px 15px;
+	margin: 10px 0;
+	width: 100%;
+	font-size: 16px;
+	line-height: 24px;
+}
+
+.entry-content.confession .buttons-cont {
+	float: right;
+	margin: 20px 0 10px;
+	width: auto;
+}
+
+.entry-content.confession a.button {
+	border: 2px solid #dddddd;
+	color: #000;
+	cursor: pointer;
+	font-size: 13px;
+	font-weight: 400;
+	letter-spacing: 1px;
+	line-height: 15px;
+	margin: 20px 5px 5px 0;
+	padding: 10px 14px;
+	text-transform: uppercase;
+	transition: all 0.6s ease 0s;
+}
+.entry-content.confession a.button:hover {
+	border: 2px solid #337a98;
+	color: #fff;
+	background-color: #337a98;
+}
+
+.conf-pagination {
+	float: left;
+	margin: 10px 0 35px;
+	width: 100%;
+}
+.conf-prev-link {
+	display: block;
+	float: left;
+}
+.conf-next-link {
+	display: block;
+	float: right;
+}
+
+.conf-thanks {
+	border: 2px solid #FE2600;
+	display: block;
+	float: left;
+	margin: 40px 0;
+	padding: 35px 20px 20px;
+	text-align: center;
+	width: 100%;
+}
+
+.confes-form {
+	position:relative;
+	position: relative;
+	width: 100%;
+}
+.confes-form .form-title {
+	text-align: center;
+}
+.confes-form .form-title span{
+	color: #337a98;
+	background-color: #fff;
+	position: relative;
+	top: 10px;
+	padding: 5px 25px;
+	text-transform: uppercase;
+}
+.confes-form input[type="text"], 
+.confes-form textarea {
+	font-size: 16px;
+	padding: 10px 20px;
+	border: 2px solid #337a98;
+	width: 100%;
+}
+.confes-form textarea {
+	resize: vertical;
+}
+
+.confes-form input[type="submit"] {
+	background-color: #ff3300;
+	display: block;
+	border: 3px solid #fff;
+	border-radius: 100%;
+	-webkit-box-shadow: 0px 0px 0px 1px #ff3300;
+	-moz-box-shadow: 0px 0px 0px 1px #ff3300;
+	box-shadow: 0px 0px 0px 1px #ff3300;
+	color: #fff;
+	float: right;
+	padding: 22px 14px;
+	text-transform: uppercase;
+	transition: 0.6s all;
+	float: none;
+	margin: 0 auto;
+}
+.confes-form input[type="submit"]:hover {
+	//padding: 28px 20px;
+	border: 3px solid transparent;
+	transition: 0.6s all;
+}
